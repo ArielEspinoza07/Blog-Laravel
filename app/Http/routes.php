@@ -28,9 +28,9 @@ Route::group(['middleware' => 'auth'], function () {
 
     Route::resource('category','CategoryController');
 
-	Route::resource('article','ArticleController');
+  	Route::resource('article','ArticleController');
 
-	Route::resource('admin','AdminController');
+  	Route::resource('admin','AdminController');
 
-	Route::resource('tag','TagController');
+  	Route::resource('tag','TagController');
 });
